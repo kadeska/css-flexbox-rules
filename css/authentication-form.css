@@ -84,13 +84,21 @@ form {
   /* margin-bottom: 20px; */
   /* column-gap: 20px; */
   width: 100%;
+  /* height: 30px; */
 }
 .form-input-control {
   display: flex;
   flex-direction: column;
+  /* height: 30px; */
 
   /* margin-bottom: 10px; */
   column-gap: 6px;
+  gap: 10px;
+}
+
+select#state, select#city {
+  height: 30px;
+  padding: 5px;
 }
 .form-group-vertical-control {
   display: flex;
