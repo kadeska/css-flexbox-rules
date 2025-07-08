@@ -24,9 +24,20 @@ p {
 
 /* 👇👇👇  ADD YOUR FORM STYLES BENEATH  👇👇👇*/
 
+.content {
+  display: flex;
+  /* flex-direction: row; */
+  /* align-content: space-between; */
+  justify-content: center;
+  column-gap: 30px;
+  padding: 30px;
+}
+
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .subtext {
@@ -37,6 +48,8 @@ form {
 #sign-in,
 #sign-up {
   width: 100%;
+  /* display: flex; */
+  /* flex-direction: column;  */
 }
 
 a {
