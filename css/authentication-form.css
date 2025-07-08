@@ -33,12 +33,77 @@ p {
   padding: 30px;
 }
 
+/* header.exercise-header {
+  top: 0;
+
+} */
+
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
+.form-header {
+  /* margin-bottom: 20px; */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+/* form div {
+  border: 1px solid #a9a9a9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+} 
+*/
+.form-submit-control {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* margin-top: 20px; */
+  gap: 10px;
+}
+.form-group-horizontal-control {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* margin-bottom: 20px; */
+  /* width: 100%; */
+  column-gap: 30px;
+}
+.form-group-horizontal-control .form-input-control {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* margin-bottom: 20px; */
+  /* column-gap: 20px; */
+  width: 100%;
+}
+.form-input-control {
+  display: flex;
+  flex-direction: column;
+
+  /* margin-bottom: 10px; */
+  column-gap: 5px;
+}
+.form-group-vertical-control {
+  display: flex;
+  flex-direction: column;
+  column-gap: 2px;
+}
+.form-group-vertical-control .form-radio-control {
+  height: 25px;
+}
+/* hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+
 
 .subtext {
   color: #a9a9a9;
@@ -48,8 +113,9 @@ form {
 #sign-in,
 #sign-up {
   width: 100%;
-  /* display: flex; */
-  /* flex-direction: column;  */
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
 }
 
 a {
@@ -59,12 +125,17 @@ a {
 
 label {
   font-weight: bold;
+  padding-bottom: 6px;
+  /* margin-bottom: 6px; */
 }
 
 input {
   width: 100%;
   height: 30px;
   padding: 5px;
+  /* margin-top: 6px; */
+  /* margin-bottom: 20px; */
+  /* gap: 20px; */
 }
 
 input[type="checkbox"],
@@ -96,3 +167,15 @@ input[type="submit"]:hover {
 .form select {
   height: 30px;
 }
+.font-weight-normal label{
+  font-weight: normal;
+}
+/* select {
+  appearance: base-select;
+} */
+
+/* #field-top-margin {
+  margin: 6px;
+} */
+
+
